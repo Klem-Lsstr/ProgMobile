@@ -1,24 +1,19 @@
 //
 //  Todo.swift
-//  TP-TodoList
+//  Projet tp
 //
-//  Created by Clement Lesestre on 07/11/2022.
+//  Created by Raif El Sayed on 07/11/2022.
 //
 
 import Foundation
-
-// mettre un nom, une description, etat
-
-class Todo{
-    
-    var nom: String
-    var description: String
-    var etat: Bool
-    
-    init(nom: String, description: String){
+class Todo
+{
+var nom : String
+var description: String
+    init(nom: String,description:String)
+    {
         self.nom = nom
         self.description = description
-        self.etat = false
-    }
-    
+        
+        }
 }
